@@ -1,6 +1,7 @@
 # Language Matters: How Do Multilingual Input and Reasoning Paths Affect Large Reasoning Models?
+[![arXiv](https://img.shields.io/badge/arXiv-2505.17407-red.svg)](https://arxiv.org/abs/2505.17407)
+[![deploy](https://img.shields.io/badge/Hugging%20Face%20-Segmentation-FFEB3B)](https://huggingface.co/appier-ai-research/reasoning-segmentation-model-v0)
 
-[arxiv](https://www.arxiv.org/abs/2505.17407)
 
 <p align="center"> <img src="figures/cover.png" style="width: 80%; max-width: 800px" id="title-icon">       </p>
 
@@ -139,4 +140,18 @@ python run_culture_bench.py --output_dir ./log --series openai \
     --model deepseek-ai/DeepSeek-R1-Distill-Llama-8B \
     --lang en \
     --thinking_prefill multi
+```
+
+
+
+## Citation
+
+```bibtex
+@article{Tam2025LanguageMH,
+  title={Language Matters: How Do Multilingual Input and Reasoning Paths Affect Large Reasoning Models?},
+  author={Zhi Rui Tam and Cheng-Kuang Wu and Yu Ying Chiu and Chieh-Yen Lin and Yun-Nung Chen and Hung-yi Lee},
+  year={2025},
+  journal={arXiv preprint arXiv:2505.17407},
+  year={2025}
+}
 ```
